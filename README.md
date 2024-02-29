@@ -6,7 +6,7 @@ The Project I chose :-  Blogging Platform:
 
 Project Overview:
 
-a blogging platform for Engineering; where users can create and publish blog posts.
+a blogging platform for Engineeres; where users can create and publish blog posts.
 
 its purpose, and goals.
 
