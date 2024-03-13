@@ -1,40 +1,37 @@
 alx_capstone_project
 
 Preparation for Capstone Project
-The Project I chose :-  Blogging Platform:
+The Project I chose :-   Personal Portfolio Website:
 
+
+Send an email notification to your specified email address when a form is submitted, containing the visitor’s information.
 
 Project Overview:
 
-a blogging platform for Engineeres; where users can create and publish blog posts.
+ I designed a Personal Portfolio Website to show case my skills and project.
 
 its purpose, and goals.
 
-Users can share their experiences and knowledge. By doing so they create a community where they might get a job opportunity or gain new knowledge.
+There are several projects I work on and I needed a professional platform to show case all my work on one plat form. On this website I can also link my other contact like Instagram, Linkedin, GitHub, discord and others ; which makes all my work easy to share.
 
 Explain what problem the project aims to solve or what value it brings to users.
 
-Even though there are association they aren’t often assessed by the young engineers. This platform gives them a better chance to reach other in the field and share knowledge and experience.
+This website helps the user navigate through my project and evaluate my skill and contact me and hire me for a job.
 
 Features and Functionality:
-user registration, authentication, and the ability to comment on blog posts.
 
-List the main features and functionalities of the project. 
-
-Users can post their ideas, knowledge, news, experiences…… and so on and reserve response or comment from other users.
-
- unique selling points.
-
- Even though the main users are engineers any one who needs their services can reach out to them. That means they get a job opportunity.
+Include sections for an “about me”, skills, projects, and contact information.
+A responsive design to ensure the website looks good on different devices.
+A contact form for visitors to reach out to me.
 
 Technologies Used:
- HTML, CSS, JavaScript and Python
+ HTML, CSS and JavaScript  
 
 Screenshots or Demo:
 
 
 Roadmap and future enhancements:
-
+Since this is my first attempt to design a portfolio website im planning to incorporate more project and divide them in section. I’ll also incorporate further information describing each individual project.
 
 Contact information:
 name - Milky Kerenso
