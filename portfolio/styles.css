@@ -203,11 +203,8 @@ a {
   color: var(--first-color);
 }
 .home__social {
+  display: flex;
   flex-direction: column;
-  height: var(--header-height);
-  display: flexbox;
-  margin-left: 15px;
-  margin-top: 10px;
 }
 .home__social-icon {
   width: max-content;
@@ -225,13 +222,10 @@ a {
 }  
 
 .profile{
+  position: absolute;
   height: 400px;
-  width: 400px;
-}
-.profile img{
-  height: 50%;
-  width: 50%;
-  object-fit: contain;
+  width: 500px;
+  
 }
 .home__blob {
   fill: var(--first-color);
@@ -339,14 +333,14 @@ color: var(--first-color);
 }
 
 .skills__sketchup{
-  width: 70%;
+  width: 80%;
 }
 
 .skills__photoshop{
   width: 90%;
 }
 .skills__illustration{
-  width: 70%;
+  width: 80%;
 }
 .skills__design{
   width: 90%;
