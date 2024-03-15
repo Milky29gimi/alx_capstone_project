@@ -50,7 +50,7 @@ body {
   color: var(--second-color);
 }
 
-h1, h2, p {
+h1, h2, h3, p {
   margin: 0;
 }
 
@@ -256,6 +256,7 @@ a {
   object-fit: contain;
   margin-right: 40px;
 }
+
 .home__blob {
   fill: var(--first-color);
 }
@@ -431,6 +432,7 @@ color: var(--first-color);
   cursor: pointer;
   margin-left: auto;
 }
+
 
 /* ===== FOOTER =====*/
 .footer {
