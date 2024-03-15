@@ -28,7 +28,7 @@ Technologies Used:
  HTML, CSS and JavaScript  
 
 Screenshots or Demo:
-
+https://github.com/Milky29gimi/alx_capstone_project/blob/main/portfolio/demo.mp4
 
 Roadmap and future enhancements:
 Since this is my first attempt to design a portfolio website im planning to incorporate more project and divide them in section. I’ll also incorporate further information describing each individual project.
