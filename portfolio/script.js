@@ -1,13 +1,13 @@
 /*===== MENU SHOW =====*/ 
 const showMenu = (toggleId, navId) =>{
-    const toggle = document.getElementById(toggleId),
-    nav = document.getElementById(navId)
+  const toggle = document.getElementById(toggleId),
+  nav = document.getElementById(navId)
 
-    if(toggle && nav){
-        toggle.addEventListener('click', ()=>{
-            nav.classList.toggle('show')
-        })
-    }
+  if(toggle && nav){
+      toggle.addEventListener('click', ()=>{
+          nav.classList.toggle('show')
+      })
+  }
 }
 showMenu('nav-toggle','nav-menu')
 
@@ -15,9 +15,9 @@ showMenu('nav-toggle','nav-menu')
 const navLink = document.querySelectorAll('.nav__link')
 
 function linkAction(){
-    const navMenu = document.getElementById('nav-menu')
-    // When we click on each nav__link, we remove the show-menu class
-    navMenu.classList.remove('show')
+  const navMenu = document.getElementById('nav-menu')
+  // When we click on each nav__link, we remove the show-menu class
+  navMenu.classList.remove('show')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
@@ -25,74 +25,74 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 const sections = document.querySelectorAll('section[id]')
 
 const scrollActive = () =>{
-    const scrollDown = window.scrollY
+  const scrollDown = window.scrollY
 
-  sections.forEach(current =>{
-        const sectionHeight = current.offsetHeight,
-              sectionTop = current.offsetTop - 58,
-              sectionId = current.getAttribute('id'),
-              sectionsClass = document.querySelector('.nav__menu a[href*=' + sectionId + ']')
-        
-        if(scrollDown > sectionTop && scrollDown <= sectionTop + sectionHeight){
-            sectionsClass.classList.add('active-link')
-        }else{
-            sectionsClass.classList.remove('active-link')
-        }                                                    
-    })
+sections.forEach(current =>{
+      const sectionHeight = current.offsetHeight,
+            sectionTop = current.offsetTop - 58,
+            sectionId = current.getAttribute('id'),
+            sectionsClass = document.querySelector('.nav__menu a[href*=' + sectionId + ']')
+      
+      if(scrollDown > sectionTop && scrollDown <= sectionTop + sectionHeight){
+          sectionsClass.classList.add('active-link')
+      }else{
+          sectionsClass.classList.remove('active-link')
+      }                                                    
+  })
 }
 window.addEventListener('scroll', scrollActive)
 
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
-    origin: 'top',
-    distance: '60px',
-    duration: 2000,
-    delay: 200,
+  origin: 'top',
+  distance: '60px',
+  duration: 2000,
+  delay: 200,
 //     reset: true
 });
 
 var contactForm = document.getElementById("contactForm");
 if (contactForm) {
-  contactForm.addEventListener("submit", function (event) {
-    event.preventDefault();
+contactForm.addEventListener("submit", function (event) {
+  event.preventDefault();
 
-    var nameInput = document.getElementById("name");
-    var emailInput = document.getElementById("email");
-    var messageInput = document.getElementById("message");
+  var nameInput = document.getElementById("name");
+  var emailInput = document.getElementById("email");
+  var messageInput = document.getElementById("message");
 
-    var name = nameInput.value.trim();
-    var email = emailInput.value.trim();
-    var message = messageInput.value.trim();
+  var name = nameInput.value.trim();
+  var email = emailInput.value.trim();
+  var message = messageInput.value.trim();
 
-    var hasEmptyField = false;
+  var hasEmptyField = false;
 
-    if (name === "") {
-      nameInput.style.borderColor = "red";
-      hasEmptyField = true;
-    } else {
-      nameInput.style.borderColor = "";
-    }
+  if (name === "") {
+    nameInput.style.borderColor = "red";
+    hasEmptyField = true;
+  } else {
+    nameInput.style.borderColor = "";
+  }
 
-    if (email === "") {
-      emailInput.style.borderColor = "red";
-      hasEmptyField = true;
-    } else {
-      emailInput.style.borderColor = "";
-    }
+  if (email === "") {
+    emailInput.style.borderColor = "red";
+    hasEmptyField = true;
+  } else {
+    emailInput.style.borderColor = "";
+  }
 
-    if (message === "") {
-      messageInput.style.borderColor = "red";
-      hasEmptyField = true;
-    } else {
-      messageInput.style.borderColor = "";
-    }
+  if (message === "") {
+    messageInput.style.borderColor = "red";
+    hasEmptyField = true;
+  } else {
+    messageInput.style.borderColor = "";
+  }
 
-    if (hasEmptyField) {
-      return false;
-    }
+  if (hasEmptyField) {
+    return false;
+  }
 
-    contactForm.submit();
-  });
+  contactForm.submit();
+});
 }
 sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
 sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
